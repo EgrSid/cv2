@@ -7,7 +7,7 @@ This repository contains several projects that demonstrate the usage of the [Ope
 ### 1. `autopilot.py`
 This script is designed to detect and highlight road boundaries in a provided video clip using the OpenCV library. The approach is entirely based on traditional computer vision techniques without the use of machine learning or neural networks. The main functionality involves the drawing of enclosing lines that outline the detected road edges, helping to simulate a basic autopilot system.
 
-![alt text](image.png)
+![alt text](images_for_readme/image.png)
 
 ### 2. `faceID.py`
 In this project, a pre-trained [Haar Cascade](https://github.com/opencv/opencv?tab=readme-ov-file#readme) classifier is utilized to detect faces within an image. Once a face is detected, the corresponding frame is edited and then passed through a custom neural network for classification. The neural network, trained separately within the repository, determines whether the detected face belongs to the user or not ("me" vs. "not me"). The neural network and its training code can be found in the `ML` directory.
